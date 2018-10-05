@@ -25,9 +25,9 @@ hs_err_pid*
 
 #Audio Recordings and MATLAB
 *.wav
-*.m
+#*.m
 *.m~
-*.mat
+#*.mat
 *.csv
 
 
