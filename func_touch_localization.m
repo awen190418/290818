@@ -1,8 +1,8 @@
 function [pos, distance] = func_touch_localization(raw)
 
 %% Load parameters
-load(['calibration/large_calib_params.mat'], 'calibration');
-load(['calibration/large_global_params.mat'], 'globalParams');
+load(['calibration/new_calib_params.mat'], 'calibration');
+load(['calibration/new_global_params.mat'], 'globalParams');
 
 % globalParams.pinpoint.high.WVD.threshold = .5;
 

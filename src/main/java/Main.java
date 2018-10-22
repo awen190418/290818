@@ -215,7 +215,7 @@ public class Main {
 		private static long timeChecker;// This variable is used to check if anydata is older than 1 sec in the payload.
 		public static boolean emptyFlag = false;// This flag will be used to check if the payload is to be cleared or
 												// not.
-		static Utils utils = null;// This is a helper class and is used to write bytes data into wav file.
+		static Utils utils = null;// This is a h	elper class and is used to write bytes data into wav file.
 
 		Thread cleanerThread = new Thread() {
 			/*
